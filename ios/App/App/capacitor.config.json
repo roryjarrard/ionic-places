@@ -1,0 +1,13 @@
+{
+  "appId": "com.rnj.ionic.places",
+  "appName": "ionic-places",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}
