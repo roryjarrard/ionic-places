@@ -17,10 +17,14 @@ export class CreateBookingComponent implements OnInit {
   }
 
   onBookPlace() {
-    this.modalCtrl.dismiss({message: 'Dummy message'}, 'confirm');
+    this.modalCtrl
+      .dismiss({message: 'Dummy message'}, 'confirm')
+      .then();
   }
 
   onCancel() {
-    this.modalCtrl.dismiss(null, 'cancel');
+    this.modalCtrl
+      .dismiss(null, 'cancel')
+      .then();
   }
 }
